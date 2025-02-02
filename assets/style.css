@@ -1,0 +1,36 @@
+body {
+    background: #18181b;
+    color: #aaa1a1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27272a;
+    width: 610px;
+    margin-top: 25px;
+    padding: 12px 40px;
+    border-radius: 100px;
+    border: 1px solid #a1a1aa2c;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.menu__item {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    color: #a1a1aa;
+}

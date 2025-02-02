@@ -1,0 +1,44 @@
+/* Reset geral para todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definir fonte padrão para todos os elementos */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Remover estilo de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover bordas e espaçamento de tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Definir altura de linha para o formulário */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Remover bordas de imagens */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Garantir que os links não tenham sublinhado por padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
