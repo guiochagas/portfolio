@@ -1,11 +1,15 @@
 :root {
     --main-text-color: #aaa1a1;
     --background-color: #18181b;
+    --main-font: "Poppins", sans-serif;
 }
 
 body {
     background: var(--background-color);
     color: var(--main-text-color);
+    font-family: var(--main-font);
+    line-height: 30px;
+
 }
 
 .all {
@@ -71,7 +75,7 @@ body {
 }
 
 .bio__description__goal {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .main {
@@ -81,22 +85,21 @@ body {
     gap: 30px;
 }
 
-p {
-    line-height: 30px;
-}
-
-.button1 {
+.button_on_text {
     background-color: #434346;
     color: var(--main-text-color);
     font-size: 15px;
+    font-weight: 500;
     height: 25px;
     width: 30px;
     line-height: normal;
     border-radius: 9px;
     border-style: none;
+    margin-left: 5px;
 }
 
-.button1:hover {
+.button_on_text:hover {
     cursor: pointer;
     background-color: #71717A;
+    color: var(--background-color);
 }
