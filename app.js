@@ -1,4 +1,10 @@
 function openButton() {
-    button = document.querySelector(".button1");    
-    return console.log("TESTE")
+   
+    let paragraph = document.querySelector(".main__first_paragraph");
+    let newText = "Meu nome é GUILHERME";
+
+    paragraph.appendChild(newText);
+    
+    console.log("Text added")
+
 }
